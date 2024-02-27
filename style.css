@@ -1,0 +1,35 @@
+body {
+    text-align: center;
+    background-image: url("background.jpg");
+}
+
+h3 {
+    font-size: x-large;
+    font-weight: bold;
+    font-family: 'MedievalSharp', cursive;
+    text-shadow: black 2px;
+}
+
+button:hover {
+    background-color: greenyellow;
+    font-size: 25px;
+    border: coral 4px;
+    border-radius: 30px;
+}
+
+canvas {
+    border: crimson 20px;
+    animation-name: colour;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    margin-top: 100px;
+}
+
+@keyframes colour {
+    from {
+        box-shadow: 5px 5px 40px lightgreen;
+    }
+    to {
+        box-shadow: 5px 5px 40px darkgreen;
+    }
+}
